@@ -26,3 +26,6 @@ Some best practices: https://github.com/soumith/ganhacks
 
 ## Results
 ![img](./img/result.png)
+
+## Animation
+![img](./img/anim.gif)

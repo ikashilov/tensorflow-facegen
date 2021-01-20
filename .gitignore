@@ -1,5 +1,13 @@
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# DATA
-lfw*
+# Data, chechpoints & outputs
+data
+img/output
+training_checkpoints/ckpt*
+!training_checkpoints/checkpoint
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*pyc
