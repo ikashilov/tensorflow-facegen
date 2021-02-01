@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: latin-1 -*-
 import os
 import numpy as np
 import pandas as pd
@@ -28,7 +30,7 @@ def fetch_lfw_dataset(dirname='./data', use_raw=False, dx=80, dy=80, dimx=45, di
     #read photos
     print(f"found {images_name} dataset")
     photo_ids = []
-    for dirpath, dirnames, filenames in os.walk(dirname+'/'+images_name):
+    for dirpath, _, filenames in os.walk(dirname+'/'+images_name):
         for fname in filenames:
             if fname.endswith(".jpg"):
                 fpath = os.path.join(dirpath,fname)
