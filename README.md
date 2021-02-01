@@ -29,3 +29,9 @@ Some best practices: https://github.com/soumith/ganhacks
 
 ## Animation
 ![img](./img/anim.gif)
+
+## CLI
+Use `cli.py` to generate fake faces from pretrained model
+
+## TensorFlow 1
+Notebook `tf-[deprecated].ipynb` has the old tensorflow v1 incompatible implementation of fake the face generator with a different loss function.
