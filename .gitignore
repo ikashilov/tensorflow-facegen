@@ -4,10 +4,13 @@
 # Data, chechpoints & outputs
 data
 img/output
-training_checkpoints/ckpt*
-!training_checkpoints/checkpoint
+training_checkpoints
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *pyc
+
+# IDE folders
+.idea
+.vscode
